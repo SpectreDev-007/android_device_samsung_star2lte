@@ -39,12 +39,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # ArrowOS Properties
 DEVICE_MAINTAINER := Baddar90
 
-BUILD_FINGERPRINT := "samsung/star2ltexx/star2lte:10/QP1A.190711.020/G965FXXUCFTK1:user/release-keys"
+BUILD_FINGERPRINT := "google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=star2ltexx \
-    PRIVATE_BUILD_DESC="star2ltexx-user 10 QP1A.190711.020 G965FXXUCFTK1 release-keys"
+    PRIVATE_BUILD_DESC="marlin-user 10 QP1A.191005.007.A3 5972272 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=G965FXXUCFTK1 \
-    ro.build.fingerprint=samsung/star2ltexx/star2lte:10/QP1A.190711.020/G965FXXUCFTK1:user/release-keys
+    ro.build.fingerprint=google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys
